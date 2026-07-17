@@ -8,8 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-
-    // Daftarkan semua kolom database yang boleh diisi
     protected $fillable = [
         'title', 
         'content', 
